@@ -1,85 +1,80 @@
-.navbar{
-    background-color: #161513;
+.navbar {
+  background-color: #161513;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5%;
+  position: relative;
+  padding-top: 60px;
+  font-family: var(--font-roboto);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+.menu {
+  /* background-color: purple; */
+  display: flex;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menuList {
+  /* background-color: red; */
+  display: flex;
+  gap: 17px;
+  list-style: none;
+}
+
+.menuList li a {
+  /* background-color: green; */
+  color: var(--color-text);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
     display: flex;
+    align-items: flex-start;
+  }
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 3%;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    /* background-color: #0f0f0f; */
+    z-index: 3;
+  }
+
+  .menuList {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 5%;
-    position: relative;
-    padding-top: 60px;
-    font-family: var(--font-roboto);
-}
-
-.title{
-    color: var(--color-text);
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.menu{
-    /* background-color: purple; */
-    display: flex;
-
-}
-
-.menuBtn{
+    gap: 13px;
     display: none;
-}
+    background-color: #0f0f0f;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0);
+  }
 
-.menuList{
-    /* background-color: red; */
+  .menuOpen {
     display: flex;
-    gap: 47px;
-    list-style: none;
-}
-
-.menuList li a{
-    /* background-color: green; */
-    color: var(--color-text);
-    font-size: 25px;
-    text-decoration: none;
-}
-
-@media screen and (max-width: 830px){
-
-    .navbar{
-        display: flex;
-        align-items: flex-start;
-    }
-    .menuBtn{
-        display: block;
-        cursor: pointer;
-       
-    }
-
-    .menu{
-        position: absolute;
-        right: 0;
-        margin-right: 10%;
-        position: absolute;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 11px;
-        /* background-color: red; */
-        z-index: 3;
-
-    }
-
-    .menuList{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        gap: 13px;
-        display: none;
-        background-color: rgb(25, 55, 109);
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    }
-
-    .menuOpen{
-        display: flex;
-        z-index: 1;
-    }
-    
-
+    z-index: 1;
+    /* background-color: yellow; */
+  }
 }
