@@ -7,45 +7,47 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className={styles.container}>
-      <nav className={styles.navbar}>
-        <a href="/" className={styles.title}>
-          ACK ST. JAMES KOROMOSHO
-        </a>
-        <div className={styles.menu}>
-          <img
-            src={isMenuOpen ? menuIcon : closeIcon}
-            alt="menu"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          />
-          <ul className={`${styles.menuList} ${isMenuOpen && styles.menuOpen}`} onClick={() => setIsMenuOpen(false)}>
-            <li>
-              <a href="/">Home</a>
-            </li>
+    <nav className={styles.navbar}>
+      <a href="/" className={styles.title}>
+        ACK ST. JAMES KOROMOSHO
+      </a>
+      <div className={styles.menu}>
+        <img
+        className={styles.menuBtn}
+          src={isMenuOpen ? closeIcon : menuIcon}
+          alt="menu"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        />
+        <ul
+          className={`${styles.menuList} ${isMenuOpen && styles.menuOpen}`}
+          onClick={() => setIsMenuOpen(false)}
+        >
+          <li>
+            <a href="/">Home</a>
+          </li>
 
-            <li>
-              <a href="/about">About</a>
-            </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
 
-            <li>
-              <a href="/events">Events</a>
-            </li>
+          <li>
+            <a href="/events">Events</a>
+          </li>
 
-            <li>
-              <a href="/sermons">Sermons</a>
-            </li>
+          <li>
+            <a href="/sermons">Sermons</a>
+          </li>
 
-            <li>
-              <a href="/news">News</a>
-            </li>
+          <li>
+            <a href="/news">News</a>
+          </li>
 
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 

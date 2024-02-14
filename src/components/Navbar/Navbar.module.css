@@ -1,25 +1,19 @@
-.container{
-    font-family: var(--font-roboto);
-    
-}
-
 .navbar{
     background-color: #161513;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin: 0 5%;
     position: relative;
+    padding-top: 60px;
+    font-family: var(--font-roboto);
 }
 
 .title{
-    color: #fff;
+    color: var(--color-text);
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 10px;
 }
 
 .menu{
@@ -28,32 +22,21 @@
 
 }
 
-.menu img{
+.menuBtn{
     display: none;
 }
 
 .menuList{
     /* background-color: red; */
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.menuList li {
-    /* background-color: yellow; */
+    gap: 47px;
     list-style: none;
-
-    
-
 }
 
 .menuList li a{
     /* background-color: green; */
     color: var(--color-text);
     font-size: 25px;
-    font-weight: 500;
-    margin: 10px;
     text-decoration: none;
 }
 
@@ -63,22 +46,22 @@
         display: flex;
         align-items: flex-start;
     }
-    .menu img{
+    .menuBtn{
         display: block;
-        margin-top: 40px;
         cursor: pointer;
-        /* background-color: green; */
+       
     }
 
     .menu{
-        display: flex;
+        position: absolute;
         right: 0;
+        margin-right: 10%;
         position: absolute;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
+        gap: 11px;
         /* background-color: red; */
         z-index: 3;
-        position: relative;
 
     }
 
@@ -86,13 +69,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-radius: 5px;
+        gap: 13px;
         display: none;
-    }
-
-    .menuList li{
-        /* background-color: blue; */
-        position: relative;
-        top: 100%;
+        background-color: rgb(25, 55, 109);
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
 
     .menuOpen{
