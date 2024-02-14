@@ -11,10 +11,9 @@
 
 .title {
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
-  background-color: yellow;
 }
 
 .menu {
