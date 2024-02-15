@@ -12,12 +12,20 @@
     height: auto;
 }
 
+.contentTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
 .title{
     color: var(--color-text);
     font-size: 50px;
-    background-color: green;
+    /* background-color: green; */
     font-weight: bolder;
     letter-spacing: 1.75px;
+    text-align: center;
 }
 
 .content{
@@ -30,9 +38,29 @@
     top: 0;
 }
 
-.contentTitle{
+
+
+.countDownContainer{
+    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+}
+
+@media screen and (max-width: 830px){
+    .contentTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title{
+        /* background-color: purple; */
+        /* width: 80%; */
+        padding: 10px;
+    }
+
+    .title{
+        font-size: 28px;
+    }
 }

@@ -10,7 +10,9 @@ function Home() {
         <div className={styles.contentTitle}>
           <h1 className={styles.title}> ACK ST. JAMES KOROMOSHO</h1>
         </div>
-        <h4>-UPCOMING SERVICE-</h4>
+        <div className={styles.countDownContainer}>
+          <h4>-UPCOMING SERVICE-</h4>
+        </div>
       </div>
     </section>
   );
