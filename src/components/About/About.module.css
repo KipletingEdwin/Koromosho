@@ -1,1 +1,5 @@
 @import '../../vars.css';
+
+.container{
+    background-color: #171717;
+}

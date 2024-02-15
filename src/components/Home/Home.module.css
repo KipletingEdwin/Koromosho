@@ -50,10 +50,18 @@
 
 
 .countDownContainer{
-    /* background-color: blue; */
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 28%;
+}
+
+.countDownContainer h4{
+    background-color: green;
+    color: var(--color-text);
+    font-weight: 300;
+    font-family: "Outfit"Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 830px){
@@ -61,15 +69,33 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: green;
+    }
+
+    .contentTitle h3{
+        background-color: orange;
+        margin-top: 2%;
+        padding: 0px;
     }
 
     .title{
-        /* background-color: purple; */
+        background-color: purple;
+        margin-top: -4%;
+        padding: 0px;
         /* width: 80%; */
         padding: 10px;
     }
 
     .title{
         font-size: 28px;
+    }
+
+    .countDownContainer{
+        background-color: yellow;
+    }
+
+    .countDownContainer h4{
+        background-color: red;
+        margin: 0%;
     }
 }
