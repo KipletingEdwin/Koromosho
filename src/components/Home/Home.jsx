@@ -8,6 +8,7 @@ function Home() {
       <img className={styles.backImage} src={koroProfile} alt="koro" />
       <div className={styles.content}>
         <div className={styles.contentTitle}>
+          <h3>Welcome to </h3>
           <h1 className={styles.title}> ACK ST. JAMES KOROMOSHO</h1>
         </div>
         <div className={styles.countDownContainer}>
