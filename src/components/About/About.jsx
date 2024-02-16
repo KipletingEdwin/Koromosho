@@ -48,7 +48,35 @@ function About() {
 
       </div>
       <div className={styles.faith}>
-        <h3>Statement of faith</h3>
+        <h3 className={styles.coreValuesTitle}>Core Values</h3>
+        <div className={styles.coreValues}>
+          <div className={styles.value}>
+            <h3>Faith in Christ</h3>
+            <p> Demonstrating a deep and committed acknowledgement of Christ and his teachings in all our work and engagement. </p>
+          </div>
+
+          <div className={styles.value}>
+            <h3>Love</h3>
+            <p> Sharing the Love of Christ with the world. </p>
+          </div>
+
+          <div className={styles.value}>
+            <h3>Integrity</h3>
+            <p> Being good and responsible stewards of Church resources and ensuring prudent management of the same, through 
+              establishment of well-defined structures and policies. </p>
+          </div>
+
+          <div className={styles.value}> 
+            <h3>Honor</h3>
+            <p>Honoring God in our Work and service and engagement with the World. </p>
+          </div>
+
+          <div  className={styles.value}>
+            <h3>Professionalism</h3>
+            <p> Being professional in all our service and maintaining good relations at all levels. </p>
+          </div>
+
+        </div>
 
       </div>
     </section>
