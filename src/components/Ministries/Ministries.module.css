@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .container{
-    background-color: green;
+    /* background-color: green; */
     font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,52 @@
     height: 0.2px;
     background-color: var(--color-secondary);
     margin-top: 30px;
+}
+
+.departments{
+    /* background-color: blue; */
+    padding: 0px;
+}
+
+.departmentsContainer{
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% 10%;
+    color: var(--color-text);
+}
+
+.kama{
+    /* background-color: brown; */
+    border-radius: 10px;
+    display: flex;
+    width: calc(33.33% - 10px);
+    margin: 20px 0px;
+}
+
+.kama:hover{
+    box-shadow: 10px black;
+    border: 1px solid black;
+}
+
+.kama img{
+    height: 100px;
+    border-radius: 50%;
+    margin: 10%;
+    /* background-color: blue; */
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.kamaLine{
+    margin-left: 0%;
+    width: 80%;
 }
