@@ -46,6 +46,11 @@
     font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
+.container h1{
+    color: var(--color-text);
+    font-size: 40px;
+}
+
 .vision, .mission{
     /* background-color: blueviolet; */
     width: 50%;

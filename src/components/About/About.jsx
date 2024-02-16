@@ -9,7 +9,10 @@ function About() {
         <p>About</p>
         <hr className={styles.line} />
       </div>
+      <h1> MISSION & VISION</h1>
+      <hr className={styles.line} />
       <div className={styles.vmContainer}>
+       
         <div className={styles.vision}>
           <h3> VISION</h3>
           <p>A growing and caring Anglican Church boldly proclaiming Christ.</p>
@@ -33,6 +36,10 @@ function About() {
               ecclesiastical shifts, including the rise of Puritanism, the Civil War era, the Evangelical revival, and the 
               Oxford Movement. Today, it is a global communion, comprising diverse traditions, practices, and theological 
               perspectives, while maintaining its historic ties to the Church of England.</p>
+
+      </div>
+      <div className={styles.faith}>
+        <h3>Statement of faith</h3>
 
       </div>
     </section>
