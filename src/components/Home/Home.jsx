@@ -11,7 +11,9 @@ function Home() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date('February 18, 2024 10:00:00').getTime();
+    const initialCountDownDate = new Date('February 18, 2024 10:00:00').getTime();
+    let countDownDate = initialCountDownDate;
+   
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -61,7 +63,6 @@ function Home() {
           <div className={styles.items}>{timerMinutes}<p>Minutes</p></div>
           <div className={styles.items}>{timerSeconds}<p>Seconds</p></div>
           </div>
-          
         </div>
       </div>
     </section>

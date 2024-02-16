@@ -1,12 +1,16 @@
-import React from 'react';
-import styles from './About.module.css';
+import React from "react";
+import styles from "./About.module.css";
 
 function About() {
   return (
     <section className={styles.container}>
-        <h1> About</h1>
+      <div className={styles.aboutContainer}>
+        <hr className={styles.line} />
+        <p>About</p>
+        <hr className={styles.line} />
+      </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

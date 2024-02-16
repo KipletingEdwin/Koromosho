@@ -50,7 +50,7 @@
 
 
 .countDownContainer{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@
 }
 
 .countDownContainer h4{
-    background-color: green;
+    /* background-color: green; */
     color: var(--color-text);
     font-weight: 300;
     font-family: "Outfit"Arial, Helvetica, sans-serif;
@@ -68,13 +68,22 @@
 .timerContainer{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 0%;
 }
 
 .items{
-    border: 1px solid black;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    border: 2px solid #db7427;
     margin: 0px 3px;
+    padding: 4px;
+    color: var(--color-text);
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 830px){
