@@ -127,12 +127,13 @@
     /* background-color: yellow; */
 }
 
+
 .coreValues{
-    background-color: yellow;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0% 10%;
-    display: flex;
+    background-color: purple;
 }
 
 .value{
@@ -142,5 +143,6 @@
     align-items: center;
     justify-content: center;
     border: 2px solid black;
-    width: 50%;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
 }
