@@ -1,0 +1,27 @@
+@import '../../vars.css';
+
+.container{
+    background-color: green;
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
+}
+
+.aboutMinistry{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMinistry p{
+    background-color: orange;
+    padding: 10px 20px;
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
+}
+
+.line{
+    color: var(--color-secondary);
+    width: 50%;
+    height: 0.2px;
+    background-color: var(--color-secondary);
+    margin-top: 30px;
+}
