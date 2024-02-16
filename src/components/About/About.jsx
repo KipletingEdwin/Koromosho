@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./About.module.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
+
 
 function About() {
   return (
@@ -10,15 +13,21 @@ function About() {
         <hr className={styles.line} />
       </div>
       <h1> MISSION & VISION</h1>
-      <hr className={styles.line} />
+      <hr className={styles.lineMission} />
       <div className={styles.vmContainer}>
        
         <div className={styles.vision}>
+          <div className={styles.churchMission}> 
+          <FontAwesomeIcon icon={faEye} className={styles.icons} />
           <h3> VISION</h3>
+          </div>
           <p>A growing and caring Anglican Church boldly proclaiming Christ.</p>
         </div>
         <div className={styles.mission}>
+          <div className={styles.churchMission}> 
+          <FontAwesomeIcon icon={faBullseye} className={styles.icons} />
           <h3> MISSION</h3>
+          </div>
           <p>
             To equip God’s people to reach out and transform society with the
             gospel of Christ.
