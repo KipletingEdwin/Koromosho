@@ -73,3 +73,32 @@
     margin-left: 0%;
     width: 80%;
 }
+
+
+@media screen and (max-width: 830px){
+
+    .departmentsContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* background-color: blue; */
+        /* margin: 10%; */
+    }
+
+    .kama{
+        background-color: red;
+        width: 100%;
+        display: flex;
+    }
+
+    .description{
+        background-color: blue;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+  
+    
+
+}
