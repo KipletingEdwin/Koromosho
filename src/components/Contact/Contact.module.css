@@ -1,1 +1,48 @@
 @import '../../vars.css';
+
+.containerTop{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.line{
+    width: 50%;
+    height: 0.2px;
+    margin-top: 30px;
+    color: var(--color-text);
+}
+
+.containerTop p{
+    background-color: orange;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    white-space: nowrap;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    color: var(--color-text);
+}
+
+
+
+
+
+/* .aboutMinistry{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMinistry p{
+    background-color: orange;
+    padding: 10px 20px;
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
+}
+
+.line{
+    color: var(--color-secondary);
+    width: 50%;
+    height: 0.2px;
+    background-color: var(--color-secondary);
+    margin-top: 30px;
+} */
