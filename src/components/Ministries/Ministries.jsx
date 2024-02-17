@@ -15,59 +15,59 @@ function Ministries() {
       </div>
       <div className={styles.departments}>
         <div className={styles.departmentsContainer}>
-            <div className={styles.kama}>
+            <a href="/kama" className={styles.kama}>
                 <img src={kama} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Kenya Anglican Men Association(KAMA)</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
-            <div className={styles.kama}>
+            <a href="/mu" className={styles.kama}>
                 <img src={mu} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Mothers' Union</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
-            <div className={styles.kama}>
+            <a href="/kayo" className={styles.kama}>
                 <img src={kayo} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Kenya Anglican Youth Organization(KAYO)</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
-            <div className={styles.kama}>
+            <a href="/teens" className={styles.kama}>
                 <img src={choir} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Children's and Teen's Ministry</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
-            <div className={styles.kama}>
+            <a href="/choir" className={styles.kama}>
                 <img src={choir} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Choir</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
-            <div className={styles.kama}>
+            <a href="/cell" className={styles.kama}>
                 <img src={kama} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Cell Groups</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
-            </div>
+            </a>
 
         </div>
 
