@@ -88,17 +88,25 @@
     }
 
     .kama{
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
-        display: flex;
+        text-decoration: none;
+        color: var(--color-text);
+        /* display: flex; */
+    }
+
+    .kama img{
+        margin: 2%;
     }
 
     .description{
-        background-color: blue;
+        /* background-color: blue; */
         padding: 0px;
         margin: 0px;
        
     }
+
+   
 
   
     
