@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye } from '@fortawesome/free-solid-svg-icons';
+import { faBullseye, faXTwitter } from '@fortawesome/free-solid-svg-icons';
+import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -49,10 +50,9 @@ function Contact() {
           <div className={styles.contactInfo}>
             <div className={styles.address}>
                 <div className={styles.eyeContact}>
-                <FontAwesomeIcon icon={faBullseye} className={styles.icons} />
+                <FontAwesomeIcon icon={faBullseye} className={styles.icon} />
                 <h3>Contact Information</h3>
                 </div>
-             <h3>Contact Information</h3>
               <p> Call us: +254712345678 </p>
               <p> Email: ackstjameskoromosho@gmail.com</p>
             </div>
@@ -62,6 +62,7 @@ function Contact() {
                 {/* <a href="/facebook.com">  <FontAwesomeIcon icon={faXTwitter} /> </a>
                     <a href="/facebook.com">  <FontAwesomeIcon icon={faFacebook} /> </a>
                     <a href="/facebook.com">  <FontAwesomeIcon icon={faInstagram} /> </a> */}
+                    <FaXTwitter />
               </div>
             </div>
           </div>

@@ -93,3 +93,29 @@
   border: 1px solid #fff;
   padding: 8px 10px;
 }
+
+.contactInfo{
+    background-color: green;
+    margin: 5% 10%;
+}
+
+.address{
+    background-color: aqua;
+}
+
+.address p{
+    padding-left: 5%;
+}
+
+.eyeContact{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    /* background-color: purple; */
+    margin-right: 2%;
+    height: 20px;
+}
