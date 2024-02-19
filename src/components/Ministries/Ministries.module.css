@@ -6,7 +6,7 @@
 }
 
 .aboutMinistry{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
 }
@@ -40,6 +40,10 @@
     color: var(--color-text);
 }
 
+.departmentsContainer a{
+    color: var(--color-text);
+}
+
 .kama{
     /* background-color: brown; */
     border-radius: 10px;
@@ -50,7 +54,7 @@
 
 .kama:hover{
     box-shadow: 10px black;
-    border: 1px solid black;
+    border: 1px solid var(--color-text);
 }
 
 .kama img{
