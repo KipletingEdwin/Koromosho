@@ -140,3 +140,26 @@
     height: 30px;
     padding: 0px 10px;
 }
+
+@media screen and (max-width: 830px) {
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        /* background-color: yellow; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactForm{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .contact{
+        /* background-color: green; */
+        width: 100%;
+        margin-top: 5%;
+    }
+
+}
