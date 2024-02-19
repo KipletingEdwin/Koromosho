@@ -87,6 +87,20 @@ function Kama() {
                 </div>
 
                 <div className={styles.enrolment}>
+                    <div className={styles.enrolmentDescription}>
+                        <h3> Enrolment:</h3>
+                        <p> Annually KAMA in the diocese enrolls men to formally join KAMA as members, this is a ceremony that is officiated
+                             by the Diocesan Bishop. </p>
+                             <span> Contact David +254 723 842 083 </span>
+
+                    </div>
+                    <div className={styles.giving}>
+                        <h3> Giving</h3>
+                        <p> KAMA Cathedral holds its annual fundraiser during the month of August. The funds raised go towards development
+                             projects in our Cathedral that identified by members. Our current project is the Construction of new Church 
+                             gate and perimeter wall, a landmark project in Kiambu town. </p>
+
+                    </div>
 
                 </div>
 
