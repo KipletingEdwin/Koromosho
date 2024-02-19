@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .containerTop {
-  background-color: gray;
+  /* background-color: gray; */
   display: flex;
   flex-direction: row;
 }
@@ -142,6 +142,8 @@
 .socials h3{
     text-align: center;
     padding: 15px 0px;
+    /* background-color: red; */
+    margin-bottom: 30px;
 }
 
 .icon{

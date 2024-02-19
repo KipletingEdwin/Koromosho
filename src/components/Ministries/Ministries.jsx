@@ -15,7 +15,7 @@ function Ministries() {
       </div>
       <div className={styles.departments}>
         <div className={styles.departmentsContainer}>
-            <a href="/kama" className={styles.kama}>
+            <a href="../Kama.jsx" className={styles.kama}>
                 <img src={kama} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Kenya Anglican Men Association(KAMA)</h3>
@@ -27,7 +27,7 @@ function Ministries() {
             <a href="/mu" className={styles.kama}>
                 <img src={mu} alt="kama"/>
                 <div className={styles.description}>
-                    <h3> Mothers' Union</h3>
+                    <h3> Mothers' Union(MU)</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
@@ -45,7 +45,7 @@ function Ministries() {
             <a href="/teens" className={styles.kama}>
                 <img src={choir} alt="kama"/>
                 <div className={styles.description}>
-                    <h3> Children's and Teen's Ministry</h3>
+                    <h3> Sundays' School</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>
@@ -54,7 +54,7 @@ function Ministries() {
             <a href="/choir" className={styles.kama}>
                 <img src={choir} alt="kama"/>
                 <div className={styles.description}>
-                    <h3> Choir</h3>
+                    <h3> Mission and Evangelism</h3>
                     <hr className={styles.kamaLine} />
                     <p>Learn More</p>
                 </div>

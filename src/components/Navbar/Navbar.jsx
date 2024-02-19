@@ -7,6 +7,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    <>  
     <nav className={styles.navbar}>
       <a href="/" className={styles.title}>
         ACK ST. JAMES KOROMOSHO
@@ -48,6 +49,7 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+    </>
   );
 }
 

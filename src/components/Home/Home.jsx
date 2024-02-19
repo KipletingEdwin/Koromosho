@@ -56,7 +56,7 @@ function Home() {
           <h1 className={styles.title}> ACK ST. JAMES KOROMOSHO</h1>
         </div>
         <div className={styles.countDownContainer}>
-          <h4>-UPCOMING SERVICE-</h4>
+          <h3>-UPCOMING SERVICE-</h3>
           <div className={styles.timerContainer}> 
           <div className={styles.items}>{timerDays}<p>Days</p></div>
           <div className={styles.items}>{timerHours}<p>Hours</p></div>

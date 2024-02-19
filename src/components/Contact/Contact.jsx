@@ -59,7 +59,7 @@ function Contact() {
                 </div>
               <p><FontAwesomeIcon icon={faPhone} /> : +254712345678 </p>
               <p><FontAwesomeIcon icon={faEnvelope} />:  ackstjameskoromosho@gmail.com</p>
-              <p><FontAwesomeIcon icon={faLocationDot} />: Kaptinga,Simat Location,Kapseret Constituency,Uasin Gishy County</p>
+              <p><FontAwesomeIcon icon={faLocationDot} />: Kaptinga,Simat Location,Kapseret Constituency,Uasin Gishu County</p>
             </div>
             <div className={styles.socials}>
               <h3> Follow Us:</h3>
