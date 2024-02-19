@@ -27,23 +27,23 @@ function Navbar() {
           </li>
 
           <li>
-            <a href="/about">About</a>
+            <a href="#about">About</a>
           </li>
 
           <li>
-            <a href="/events">Events</a>
+            <a href="#events">Events</a>
           </li>
 
           <li>
-            <a href="/sermons">Sermons</a>
+            <a href="#ministries">Ministries</a>
           </li>
 
           <li>
-            <a href="/news">News</a>
+            <a href="#news">News</a>
           </li>
 
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

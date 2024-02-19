@@ -7,7 +7,7 @@ import choir from '../../assets/ministry/choir.png';
 
 function Ministries() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="ministries">
       <div className={styles.aboutMinistry}>
         <hr className={styles.line} />
         <p>Ministries</p>

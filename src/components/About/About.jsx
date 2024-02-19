@@ -6,14 +6,14 @@ import { faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 function About() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.aboutContainer}>
         <hr className={styles.line} />
         <p>About</p>
         <hr className={styles.line} />
       </div>
       <h1> MISSION & VISION</h1>
-      <hr className={styles.lineMission} />
+      {/* <hr className={styles.lineMission} /> */}
       <div className={styles.vmContainer}>
        
         <div className={styles.vision}>

@@ -14,7 +14,6 @@
 }
 
 .containerTop p {
-  background-color: orange;
   padding: 5px 20px;
   border: 1px solid #fff;
   white-space: nowrap;
@@ -89,7 +88,7 @@
 }
 
 .contact {
-  background-color: purple;
+  /* background-color: purple; */
   width: 50%;
   
 }
@@ -104,13 +103,12 @@
   padding: 8px 10px;
 }
 
-.contactInfo{
+/* .contactInfo{
     background-color: green;
-    /* margin: 5% 10%; */
-}
+} */
 
 .address{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0px;
     width: 100%;
 }
@@ -118,7 +116,7 @@
 .address p{
     /* text-align: center; */
     margin-left: 10%;
-    background-color: red;
+    /* background-color: red; */
     font-size: 25px;
     
 }

@@ -9,21 +9,26 @@
     justify-content: center;
 }
 
+.container h1{
+    color: var(--color-text);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
 .aboutContainer{
     /* background-color: yellow; */
     width: 100%;
     display: flex;
     flex-direction: row;
-    border: 0cap2px solid black;
-    height: 30px;
-    margin-top: 20px;
+    /* height: 70px; */
+    margin: 30px 0px;
 }
 
 .aboutContainer p{
     border: 2px solid var( --color-text);
     /* background-color: red; */
-    height: 20px;
-    margin-top: -5px;
+    height: 40px;
+    margin: 15px 0px;
     padding: 5px 30px;
     color: var(--color-text);
     font-size: 20px;
@@ -33,40 +38,58 @@
 
 .line{
     color: var(--color-secondary);
-    width: 50%;
+    width: 55%;
     height: 0.2px;
     background-color: var(--color-secondary);
+    margin-top: 35px;
 }
 
 .vmContainer{
     /* background-color: yellow; */
     width: 100%;
+    margin: 20px 0px;
     display: flex;
     flex-direction: row;
     font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
-.container h1{
-    color: var(--color-text);
-    font-size: 40px;
-}
 
-.vision, .mission{
+
+.vision{
     /* background-color: blueviolet; */
     width: 50%;
 }
 
-.vision h3, .mission h3{
+.mission{
+    /* background-color: green; */
+    width: 50%;
+}
+
+.vision h3{
     font-size: 25px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1.5px;
     color: #fff;
+    /* background-color: red; */
+    margin: 25px 0px;
+}
+
+.mission h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #fff;
+    /* background-color: red; */
+    margin: 25px 0px;
 }
 
 .vision p, .mission p{
     text-align: center;
     color: #fff;
+    /* background-color: red; */
+    padding: 10px 0px;
 
 }
 
@@ -86,7 +109,7 @@
 
 .churchHistory{
     /* background-color: blueviolet; */
-    margin: 0% 20%;
+    margin: 0% 5%;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--color-text);
 }
@@ -94,11 +117,15 @@
 .churchHistory h3{
     text-align: center;
     font-size: 30px;
+    text-decoration: underline;
     /* background-color: red; */
+    padding: 10px 0px;
 }
 
 .churchHistory p{
     font-size: 16px;
+    /* background-color: orange; */
+    padding: 10px 0px;
     
 }
 
@@ -119,10 +146,12 @@
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
+
 .coreValuesTitle{
     text-align: center;
     font-size: 35px;
     font-weight: 500;
+    text-decoration: underline;
     /* background-color: yellow; */
 }
 
@@ -144,4 +173,9 @@
     /* border: 2px solid black; */
     width: calc(50% - 10px);
     margin-bottom: 10px;
+}
+
+.value:hover{
+    border: 1px solid var(--color-text);
+    border-radius: 5px;
 }
