@@ -89,7 +89,7 @@
 }
 
 .contact {
-  /* background-color: purple; */
+  background-color: purple;
   width: 50%;
   
 }
@@ -105,16 +105,22 @@
 }
 
 .contactInfo{
-    /* background-color: green; */
-    margin: 5% 10%;
+    background-color: green;
+    /* margin: 5% 10%; */
 }
 
-/* .address{
+.address{
     background-color: aqua;
-} */
+    margin: 0px;
+    width: 100%;
+}
 
 .address p{
-    padding-left: 5%;
+    /* text-align: center; */
+    margin-left: 10%;
+    background-color: red;
+    font-size: 25px;
+    
 }
 
 .eyeContact{

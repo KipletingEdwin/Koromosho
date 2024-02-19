@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBullseye, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import facebook from '../../assets/socials/facebook.png';
 import X from '../../assets/socials/X.png';
 import instagram from '../../assets/socials/Instagram.png';
@@ -57,8 +57,9 @@ function Contact() {
                 <FontAwesomeIcon icon={faBullseye} className={styles.icon} />
                 <h3>Contact Information</h3>
                 </div>
-              <p><FontAwesomeIcon icon={faPhone} />  +254712345678 </p>
-              <p><FontAwesomeIcon icon={faEnvelope} />  ackstjameskoromosho@gmail.com</p>
+              <p><FontAwesomeIcon icon={faPhone} /> : +254712345678 </p>
+              <p><FontAwesomeIcon icon={faEnvelope} />:  ackstjameskoromosho@gmail.com</p>
+              <p><FontAwesomeIcon icon={faLocationDot} />: Kaptinga,Simat Location,Kapseret Constituency,Uasin Gishy County</p>
             </div>
             <div className={styles.socials}>
               <h3> Follow Us:</h3>
