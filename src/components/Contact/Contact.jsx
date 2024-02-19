@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye, faXTwitter } from '@fortawesome/free-solid-svg-icons';
-import { FaXTwitter } from "react-icons/fa6";
+import { faBullseye, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import facebook from '../../assets/socials/facebook.png';
+import X from '../../assets/socials/X.png';
+import instagram from '../../assets/socials/Instagram.png';
+
+
 
 function Contact() {
   return (
@@ -53,16 +57,25 @@ function Contact() {
                 <FontAwesomeIcon icon={faBullseye} className={styles.icon} />
                 <h3>Contact Information</h3>
                 </div>
-              <p> Call us: +254712345678 </p>
-              <p> Email: ackstjameskoromosho@gmail.com</p>
+              <p><FontAwesomeIcon icon={faPhone} />  +254712345678 </p>
+              <p><FontAwesomeIcon icon={faEnvelope} />  ackstjameskoromosho@gmail.com</p>
             </div>
             <div className={styles.socials}>
               <h3> Follow Us:</h3>
-              <div className={styles.icons}>
-                {/* <a href="/facebook.com">  <FontAwesomeIcon icon={faXTwitter} /> </a>
-                    <a href="/facebook.com">  <FontAwesomeIcon icon={faFacebook} /> </a>
-                    <a href="/facebook.com">  <FontAwesomeIcon icon={faInstagram} /> </a> */}
-                    <FaXTwitter />
+              <div className={styles.socialIcons}>
+              <a href="https://www.facebook.com/groups/282547165136513" target="_blank" rel="noopener noreferrer">
+             <img src={facebook} alt="Facebook" />
+            </a>
+
+            <a href="https://www.facebook.com/groups/282547165136513" target="_blank" rel="noopener noreferrer">
+             <img src={X} alt="Twitter" />
+            </a>
+
+
+            <a href="https://www.facebook.com/groups/282547165136513" target="_blank" rel="noopener noreferrer">
+             <img src={instagram} alt="instagram" />
+            </a>
+
               </div>
             </div>
           </div>

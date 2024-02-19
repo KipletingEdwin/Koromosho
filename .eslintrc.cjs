@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     "react/jsx-uses-vars": "error",
     "react/jsx-uses-react": "error",
+    "react/no-unescaped-entities": 0,
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },

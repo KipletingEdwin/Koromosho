@@ -23,7 +23,7 @@
 }
 
 .contactContainer {
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   flex-direction: row;
   color: var(--color-text);
@@ -40,7 +40,7 @@
 .contactForm p {
   font-size: 20px;
   font-weight: 700;
-  background-color: red;
+  /* background-color: red; */
   text-align: center;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .contact {
-  background-color: purple;
+  /* background-color: purple; */
   width: 50%;
 }
 
@@ -95,27 +95,48 @@
 }
 
 .contactInfo{
-    background-color: green;
+    /* background-color: green; */
     margin: 5% 10%;
 }
 
-.address{
+/* .address{
     background-color: aqua;
-}
+} */
 
 .address p{
     padding-left: 5%;
 }
 
 .eyeContact{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* .socials{
+    background-color: blue;
+} */
+
+.socials h3{
+    text-align: center;
 }
 
 .icon{
     /* background-color: purple; */
     margin-right: 2%;
     height: 20px;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    /* background-color: orangered; */
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcons img{
+    height: 30px;
+    padding: 0px 10px;
 }
