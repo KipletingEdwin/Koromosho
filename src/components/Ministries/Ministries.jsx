@@ -15,7 +15,7 @@ function Ministries() {
       </div>
       <div className={styles.departments}>
         <div className={styles.departmentsContainer}>
-            <a href="../Kama.jsx" className={styles.kama}>
+            <a href="./Kama.jsx" className={styles.kama}>
                 <img src={kama} alt="kama"/>
                 <div className={styles.description}>
                     <h3> Kenya Anglican Men Association(KAMA)</h3>

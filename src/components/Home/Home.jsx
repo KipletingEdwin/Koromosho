@@ -11,13 +11,19 @@ function Home() {
   let interval = useRef();
 
   const startTimer = () => {
-    const initialCountDownDate = new Date('February 25, 2024 10:00:00').getTime();
+    let initialCountDownDate = new Date('March 3, 2024 10:00:00').getTime();
     let countDownDate = initialCountDownDate;
+ 
    
 
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
+
+      if(distance<0){
+        initialCountDownDate +=7 * 24 *60 * 60 * 1000;
+        countDownDate = initialCountDownDate
+      }
 
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hours = Math.floor((distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));

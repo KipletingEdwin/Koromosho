@@ -5,50 +5,64 @@ import menuIcon from "../../assets/nav/menuIcon.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMinistriesOpen, setIsMinistriesOpen] = useState(false);
 
   return (
-    <>  
-    <nav className={styles.navbar}>
-      <a href="/" className={styles.title}>
-        ACK ST. JAMES KOROMOSHO
-      </a>
-      <div className={styles.menu}>
-        <img
-        className={styles.menuBtn}
-          src={isMenuOpen ? closeIcon : menuIcon}
-          alt="menu"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        />
-        <ul
-          className={`${styles.menuList} ${isMenuOpen && styles.menuOpen}`}
-          onClick={() => setIsMenuOpen(false)}
-        >
-          <li>
-            <a href="/">Home</a>
-          </li>
+    <>
+      <nav className={styles.navbar}>
+        <a href="/" className={styles.title}>
+          ACK ST. JAMES KOROMOSHO
+        </a>
+        <div className={styles.menu}>
+          <img
+            className={styles.menuBtn}
+            src={isMenuOpen ? closeIcon : menuIcon}
+            alt="menu"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+          <ul
+            className={`${styles.menuList} ${isMenuOpen && styles.menuOpen}`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <li>
+              <a href="/">Home</a>
+            </li>
 
-          <li>
-            <a href="#about">About</a>
-          </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
 
-          <li>
-            <a href="#events">Events</a>
-          </li>
+            <li>
+              <a href="#events">Events</a>
+            </li>
 
-          <li>
-            <a href="#ministries">Ministries</a>
-          </li>
+            <li
+              onMouseEnter={() => setIsMinistriesOpen(true)}
+              onMouseLeave={() => setIsMinistriesOpen(false)}
+            >
+              <a href="#ministries">Ministries</a>
+              {isMinistriesOpen && (
+                <div className={styles.dropdown}>
+                  <a href="#">KAMA</a>
+                  <a href="#">Mothers Union</a>
+                  <a href="#">KAYO</a>
+                  <a href="#">Sunday School</a>
+                  <a href="#">Choir</a>
+                  <a href="#">Mission and Evangelism</a>
+                </div>
+              )}
+            </li>
 
-          <li>
-            <a href="#news">News</a>
-          </li>
+            <li>
+              <a href="#news">News</a>
+            </li>
 
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 }
