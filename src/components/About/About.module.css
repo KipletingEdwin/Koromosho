@@ -200,4 +200,32 @@
         width: 100%;
     }
 
+    .churchHistory{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    /* .churchHistory h3{
+        background-color: yellow;
+    } */
+
+    .churchHistory p{
+        /* background-color: red; */
+        padding: 0 2%;
+    }
+
+    .coreValues{
+        /* background-color: red; */
+        width: 100%;
+        margin: 0%;
+    }
+
+    .value{
+        /* background-color: green; */
+        width: 100%;
+    }
+    .value h3{
+        text-decoration: underline;
+    }
+
 }
