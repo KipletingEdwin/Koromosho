@@ -1,33 +1,38 @@
-[
-    {
-        "title": "Faith in Christ",
-        "Description": "Demonstrating a deep and committed acknowledgement of Christ and his teachings in all our work and engagement."
-    },
+{
+    "projects": [
+        {
+            "title": "Faith in Christ",
+            "Description": "Demonstrating a deep and committed acknowledgement of Christ and his teachings in all our work and engagement."
+        },
+    
+        {
+            "title": "Love",
+            "Description": "Sharing the Love of Christ with the world."
+        },
+    
+        {
+            "title": "Integrity",
+            "Description": " Being good and responsible stewards of Church resources and ensuring prudent management of the same, through establishment of well-defined structures and policies. "
+        },
+    
+        {
+            "title": "Honor",
+            "Description": "Honoring God in our Work and service and engagement with the World."
+        },
+    
+        {
+            "title": "Faith in Christ",
+            "Description": "Demonstrating a deep and committed acknowledgement of Christ and his teachings in all our work and engagement."
+        },
+    
+        {
+            "title": "Professionalism",
+            "Description": " Being professional in all our service and maintaining good relations at all levels. "
+        }
+    
+    
+    ],
 
-    {
-        "title": "Love",
-        "Description": "Sharing the Love of Christ with the world."
-    },
-
-    {
-        "title": "Integrity",
-        "Description": " Being good and responsible stewards of Church resources and ensuring prudent management of the same, through establishment of well-defined structures and policies. "
-    },
-
-    {
-        "title": "Honor",
-        "Description": "Honoring God in our Work and service and engagement with the World."
-    },
-
-    {
-        "title": "Faith in Christ",
-        "Description": "Demonstrating a deep and committed acknowledgement of Christ and his teachings in all our work and engagement."
-    },
-
-    {
-        "title": "Professionalism",
-        "Description": " Being professional in all our service and maintaining good relations at all levels. "
-    }
-
-
-]
+    "churchHistory": "The Anglican Church, originating in England during the 16th century, emerged amidst the tumultuous period of the English Reformation. Rooted in the theological disputes between Henry VIII and the Roman Catholic Church over his desire for an annulment of his marriage, the establishment of the Church of England marked a significant departure from papal authority. Under the reign of subsequent monarchs, particularly Elizabeth I, the Church solidified its identity, adopting a via media or 'middle way' approach, blending elements of Catholic tradition with Protestant theology. Throughout its history, the Anglican Church has undergone numerous theological and ecclesiastical shifts, including the rise of Puritanism, the Civil War era, the Evangelical revival, and the Oxford Movement. Today, it is a global communion, comprising diverse traditions, practices, and theological perspectives, while maintaining its historic ties to the Church of England."
+  }
+  

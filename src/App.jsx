@@ -6,13 +6,16 @@ import Home from './components/Home/Home'
 import Ministries from './components/Ministries/Ministries'
 import Navbar from './components/Navbar/Navbar'
 
+
 function App() {
+
+
 
   return (
     <div className={styles.App}>
       <Navbar />
       <Home />
-      <About />
+      <About/>
       <Ministries />
       <Contact />
       <Footer />
