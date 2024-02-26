@@ -94,12 +94,24 @@
 
 @media screen and (max-width: 830px){
 
- 
+    /* .container{
+        background-color: red;
+    } */
+
+    .departments{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .departmentsContainer{
+        /* background-color: red; */
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        width: 100%;
+        margin: 0%;
         /* background-color: blue; */
         /* margin: 10%; */
     }
@@ -117,8 +129,8 @@
     }
 
     .description{
-        /* background-color: blue; */
-        padding: 0px;
+        /* background-color: green; */
+        padding: 5px;
         margin: 0px;
        
     }

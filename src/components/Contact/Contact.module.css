@@ -167,10 +167,19 @@
 
 @media screen and (max-width: 830px) {
 
+  /* .container{
+    background-color: red;
+  } */
+
+  /* .containerTop{
+    background-color: red;
+  } */
+
     .contactContainer{
         display: flex;
         flex-direction: column;
         /* background-color: yellow; */
+        margin: 0px;
         align-items: center;
         justify-content: center;
     }
@@ -183,7 +192,33 @@
     .contact{
         /* background-color: green; */
         width: 100%;
-        margin-top: 5%;
+        margin: 0px;
     }
+
+    .contactInfo{
+      /* background-color: yellow; */
+      margin: 5px;
+    }
+
+    .address{
+      /* background-color: red; */
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .address p{
+      /* background-color: blue; */
+      margin: 0%;
+      font-size: 18px;
+    }
+
+    /* .eyeContact{
+      background-color: orange;
+    } */
+
+    /* .socials{
+      background-color: purple;
+    } */
 
 }

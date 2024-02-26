@@ -17,7 +17,7 @@ function Ministries() {
           {ministriesData.map((ministry, index) => (
             <div key={index} className={styles.kama}>
               <img src={ministry.imageSrc} alt={ministry.name} />
-              <div className="description">
+              <div className={styles.description}>
                 <h3>{ministry.name}</h3>
                 <hr className={styles.kamaLine} />
                 <p>{ministry.link}</p>
