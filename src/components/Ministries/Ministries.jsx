@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./Ministries.module.css";
-import kama from '../../assets/ministry/KAMA_LOGO.png';
-import mu from '../../assets/ministry/mothersunionlogo.jpg';
-import kayo from '../../assets/ministry/kayo.png';
-import choir from '../../assets/ministry/choir.png';
+import ministriesData from "../../Data/Ministries.json";
 
 function Ministries() {
   return (
@@ -14,63 +11,20 @@ function Ministries() {
         <hr className={styles.line} />
       </div>
       <div className={styles.departments}>
+
+        {/* Render different departments*/}
         <div className={styles.departmentsContainer}>
-            <a href="./Kama.jsx" className={styles.kama}>
-                <img src={kama} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Kenya Anglican Men Association(KAMA)</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
-            <a href="/mu" className={styles.kama}>
-                <img src={mu} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Mothers' Union(MU)</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
-            <a href="/kayo" className={styles.kama}>
-                <img src={kayo} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Kenya Anglican Youth Organization(KAYO)</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
-            <a href="/teens" className={styles.kama}>
-                <img src={choir} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Sundays' School</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
-            <a href="/choir" className={styles.kama}>
-                <img src={choir} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Mission and Evangelism</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
-            <a href="/cell" className={styles.kama}>
-                <img src={kama} alt="kama"/>
-                <div className={styles.description}>
-                    <h3> Cell Groups</h3>
-                    <hr className={styles.kamaLine} />
-                    <p>Learn More</p>
-                </div>
-            </a>
-
+          {ministriesData.map((ministry, index) => (
+            <div key={index} className={styles.kama}>
+              <img src={ministry.imageSrc} alt={ministry.name} />
+              <div className="description">
+                <h3>{ministry.name}</h3>
+                <hr className={styles.kamaLine} />
+                <p>{ministry.link}</p>
+              </div>
+            </div>
+          ))}
         </div>
-
       </div>
     </section>
   );
