@@ -39,27 +39,6 @@
   text-decoration: none;
 }
 
-.dropdown{
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #0f0f0f;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown a{
-  display: block;
-  padding: 10px;
-  color: var(--color-text);
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.dropdown a:hover{
-  background-color: #333;
-}
-
 
 @media screen  and (max-width: 830px) {
   .navbar {

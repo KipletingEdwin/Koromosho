@@ -8,6 +8,12 @@ function Home() {
   const [timerMinutes, setTimerMinutes] = useState('00');
   const [timerSeconds, setTimerSeconds] = useState('00');
 
+  const [sentence, setSentence] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const fullSentence = "Welcome to:";
+
+
   let interval = useRef();
 
   const startTimer = () => {
@@ -20,7 +26,7 @@ function Home() {
       const now = new Date().getTime();
       const distance = countDownDate - now;
 
-      if(distance<0){
+      if(distance < 0){
         initialCountDownDate +=7 * 24 *60 * 60 * 1000;
         countDownDate = initialCountDownDate
       }
@@ -41,24 +47,44 @@ function Home() {
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
       }
-
-
     }, 1000);
-  }
+  };
+
+ 
 
   useEffect(() => {
     startTimer();
-    return () => {
-      clearInterval(interval.current);
-    };
-  });
+    return () => clearInterval(interval.current);
+  },[]);
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (currentIndex < fullSentence.length) {
+        setSentence((prevSentence) => prevSentence + fullSentence[currentIndex]);
+        setCurrentIndex((prevIndex) => prevIndex + 1);
+      } else {
+        // Reset currentIndex to 0 to start the sentence again
+        setCurrentIndex(0);
+        setSentence(""); // Clear the sentence to start anew
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [currentIndex, fullSentence.length]);
+  
+
+
+
+
+
+
 
   return (
     <section className={styles.container}>
       <img className={styles.backImage} src={koroProfile} alt="koro" />
       <div className={styles.content}>
         <div className={styles.contentTitle}>
-          <h3>Welcome to </h3>
+          <h3>{sentence} </h3>
           <h1 className={styles.title}> ACK ST. JAMES KOROMOSHO</h1>
         </div>
         <div className={styles.countDownContainer}>

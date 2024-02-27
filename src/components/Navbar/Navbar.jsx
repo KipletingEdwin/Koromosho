@@ -5,7 +5,6 @@ import menuIcon from "../../assets/nav/menuIcon.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMinistriesOpen, setIsMinistriesOpen] = useState(false);
 
   return (
     <>
@@ -36,21 +35,8 @@ function Navbar() {
               <a href="#events">Events</a>
             </li>
 
-            <li
-              onMouseEnter={() => setIsMinistriesOpen(true)}
-              onMouseLeave={() => setIsMinistriesOpen(false)}
-            >
+            <li>
               <a href="#ministries">Ministries</a>
-              {isMinistriesOpen && (
-                <div className={styles.dropdown}>
-                  <a href="#">KAMA</a>
-                  <a href="#">Mothers Union</a>
-                  <a href="#">KAYO</a>
-                  <a href="#">Sunday School</a>
-                  <a href="#">Choir</a>
-                  <a href="#">Mission and Evangelism</a>
-                </div>
-              )}
             </li>
 
             <li>
