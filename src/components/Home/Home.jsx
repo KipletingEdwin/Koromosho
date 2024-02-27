@@ -73,12 +73,6 @@ function Home() {
   }, [currentIndex, fullSentence.length]);
   
 
-
-
-
-
-
-
   return (
     <section className={styles.container}>
       <img className={styles.backImage} src={koroProfile} alt="koro" />
@@ -96,6 +90,15 @@ function Home() {
           <div className={styles.items}>{timerSeconds}<p>Seconds</p></div>
           </div>
         </div>
+
+        {/* <div className={styles.themeContainer}>
+          <div className={styles.theme}>
+            <h3>Theme 2024</h3>
+            <h2> POSSESSING DIVINE OPPORTUNITIES </h2>
+          </div>
+          <p>Open up your eyes and see” (2 kings 6:17)</p>
+        </div> */}
+        
       </div>
     </section>
   );

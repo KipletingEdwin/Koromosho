@@ -43,6 +43,42 @@
     margin-top: 35px;
 }
 
+.reverendContainer{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: var(--color-text);
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverendContainer img{
+    height: 150px;
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.reverendContainer h3{
+    /* background-color: red; */
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.description{
+    /* background-color: green; */
+    margin: 1% 5%;
+    font-size: 18px;
+}
+
+.name{
+    /* background-color: red; */
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
 .vmContainer{
     /* background-color: yellow; */
     width: 100%;

@@ -53,8 +53,6 @@
     top: 0;
 }
 
-
-
 .countDownContainer{
     /* background-color: blue; */
     display: flex;
@@ -66,7 +64,6 @@
     left: 50%;
     transform: translateX(-50%);
     max-width: 100%;
-    
 }
 
 .countDownContainer h3{
@@ -92,13 +89,19 @@
     border: 2px solid #fff;
     margin: 0px 3px;
     padding: 4px;
-    /* color: #00318d; */
     font-weight: 800;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 900;
+}
+
+.themeContainer{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    
 }
 
 @media screen and (max-width: 830px){
