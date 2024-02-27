@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .container{
-    /* background-color: green; */
+    background-color: green;
     margin-top: 3%;
 }
 
@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 830px) {
     .bottomFooter{
-        /* background-color: green; */
+        /* background-color: red; */
         display: flex;
         flex-direction: column;
     }
@@ -73,12 +73,25 @@
         width: 100%;
         margin: 0px;
         padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
     }
+
+    /* .rights p{
+        background-color: yellow;
+    } */
 
     .terms{
         /* background-color: yellow; */
         width: 100%;
         padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terms a{
+        /* background-color: yellow; */
+        width: 100%;
     }
 
 }

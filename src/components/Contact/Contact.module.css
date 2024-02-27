@@ -208,8 +208,8 @@
     }
 
     .address p{
-      /* background-color: blue; */
-      margin: 0%;
+      background-color: blue;
+      margin: 0% 2%;
       font-size: 18px;
     }
 
