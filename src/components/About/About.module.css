@@ -264,4 +264,25 @@
         text-decoration: underline;
     }
 
+    /* .reverendContainer{
+        background-color: green;
+    } */
+
+    .name{
+        /* background-color: red; */
+        padding: 10px 0px;
+        margin: 1% 0%;
+    }
+
+    .reverendContainer h3{
+        /* background-color: blueviolet; */
+        margin: 1% 0%;
+    }
+
+    .description{
+        /* background-color: aqua; */
+        margin: 1% 3%;
+        padding: 5px 0px;
+    }
+
 }
