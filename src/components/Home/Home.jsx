@@ -47,7 +47,7 @@ function Home() {
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
       }
-    }, 1000);
+    }, 500);
   };
 
  
