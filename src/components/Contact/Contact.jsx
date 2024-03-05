@@ -22,7 +22,7 @@ function Contact() {
       <div className={styles.contactContainer}>
         <div className={styles.contactForm}>
           <p>Drop us a message</p>
-          <form>
+          <form className={styles.myForm}>
             <ul>
               <li>
                 <input type="text" placeholder="Name" name="name" required />

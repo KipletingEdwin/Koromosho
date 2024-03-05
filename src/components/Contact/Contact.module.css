@@ -187,7 +187,25 @@
     .contactForm{
         /* background-color: red; */
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
+    .myForm{
+      /* background-color: green; */
+      width: 100%;
+      /* display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; */
+    }
+
+    /* .myForm input{
+      background-color: goldenrod;
+      width: 100%;
+    } */
 
     .contact{
         /* background-color: green; */

@@ -13,6 +13,8 @@ function Ministries() {
       <div className={styles.departments}>
 
         {/* Render different departments*/}
+
+
         <div className={styles.departmentsContainer}>
           {ministriesData.map((ministry, index) => (
             <div key={index} className={styles.kama}>
@@ -24,6 +26,8 @@ function Ministries() {
               </div>
             </div>
           ))}
+
+          
         </div>
       </div>
     </section>
