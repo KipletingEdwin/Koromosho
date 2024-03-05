@@ -1,0 +1,88 @@
+.container{
+    background-color: red;
+}
+
+
+
+.choirContainer{
+    background-color: olive;
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.choir{
+    background-color: green; 
+    width: 50%;
+ }
+
+ .choir img{
+    background-color: yellow;
+    width: 100%;
+    height: auto;
+ }
+
+ .choirDescription{
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+   
+ }
+
+ .description{
+    margin: 1% 3%;
+    background-color: blue;
+ }
+
+ .description h2{
+    background-color: cyan;
+    font-size: 35px;
+    padding: 5px 10px;
+ }
+
+ .description p{
+    background-color: cadetblue;
+    padding: 15px 5px;
+    font-size: 16px;
+    line-height: 2;
+ }
+
+ .management{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .management h2{
+    background-color: chocolate;
+    padding: 10px;
+    font-size: 30px;
+ }
+
+ .management ul{
+    background-color: blue;
+    margin: 1%;
+    padding: 10px;
+    line-height: 1.8;
+ }
+
+ .management ul li{
+    font-size: 20px;
+ }
+
+ .choirImages{
+    background-color: cyan;
+    margin: 1% 5%;
+ }
+
+ .choirImages img{
+    background-color: blue;
+    margin: 5px;
+  
+
+ }
+
+
