@@ -1,1 +1,122 @@
 @import '../../vars.css';
+
+.container{
+    background-color: green;
+    margin: 2% 5%;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    /* margin: 2% 5%; */
+}
+
+.intro{
+    background-color: red;
+    width: 50%;
+}
+
+.intro h2{
+    background-color: cornflowerblue;
+    margin: 5% 2%;
+    font-size: 45px;
+}
+
+.intro h3{
+    background-color: darkolivegreen;
+    margin: 2%;
+    font-size: 30px;
+}
+
+.description{
+    background-color: chocolate;
+    width: 50%;
+    padding: 1%;
+    
+}
+
+.description p{
+    background-color: cornflowerblue;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.leadershipContainer h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: #edeff2;
+    margin: 0% 5%;
+}
+
+.leaders{
+    background-color: #edeff2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0% 5%;
+}
+
+.leader{
+    background-color: #ffffff;
+}
+
+.leader h3{
+    text-align: center;
+    /* background-color: blue; */
+    padding: 10px 0px ;
+    font-size: 25px;
+}
+.leader p{
+    text-align: center;
+    /* background-color: cyan; */
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* Responsiveness */
+
+
+@media screen and (max-width: 830px) { 
+
+    .introduction{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .leadershipContainer h1{
+        margin: 0%;
+    }
+    .leaders{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+
+    }
+
+    .leader{
+        margin: 2% 0%;
+    }
+
+}
+
+
+
+
+
+
+

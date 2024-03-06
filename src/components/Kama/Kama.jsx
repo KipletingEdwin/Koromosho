@@ -15,13 +15,14 @@ function Kama() {
                      Church of Kenya to fellowship and serve Christ. It also prepares 
                      men to play their God given roles within family, the church and 
                      Country. </p>
-                <span> The Provincial KAMA in Kenya received recognition and blessing
+                <p> The Provincial KAMA in Kenya received recognition and blessing
                      of the Provincial Synod in July 2001, by this time nearly all diocese
                       had established KAMA. Before KAMA their existed the Father’s 
                        which was established in Diocese of Mt. Kenya South in 1985.
                         It is both a privilege and responsibility to be a KAMA member 
                         because it constantly reminds men of their faith in Jesus 
-                        Christ. </span>
+                        Christ.
+                 </p>
             </div>
         </div>
         <div className={styles.leadershipContainer}>

@@ -1,16 +1,18 @@
 .container{
-    background-color: red;
+    /* background-color: red; */
+    margin: 1% 5%;
+    color: #fff;
 }
 
 .school{
-    background-color: green;
+    /* background-color: green; */
     margin: 1% 5%;
     display: flex;
     flex-direction: row;
 }
 
 .schoolImage{
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     width: 50%;
 }
 
@@ -18,26 +20,26 @@
     /* height: 400px; */
     margin: 0px;
     padding: 0px;
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
 }
 .description{
     width: 50%;
 }
 
 .description p{
-    background-color: magenta;
+    /* background-color: magenta; */
     padding: 10px;
     font-size: 20px;
     line-height: 1.5;
 }
 
-.description ul{
+/* .description ul{
     background-color: olivedrab;
    
-}
+} */
 
 .description ul li{
-    background-color: blue;
+    /* background-color: blue; */
     margin-left: 4%;
     font-size: 20px;
     line-height: 1.5;
@@ -46,11 +48,12 @@
 .missionContainer{
     display: flex;
     flex-direction: row;
+    margin: 5% 0%;
    
 }
 
 .mission{
-    background-color: green;
+    /* background-color: green; */
     width: 33.3333%;
     padding: 10px;
 }
@@ -58,46 +61,188 @@
 .mission h2{
     text-transform: uppercase;
     font-size: 25px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 10px 0px;
 }
 
 .mission p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .mission ul{
-    background-color: gold;
+    /* background-color: gold; */
     line-height: 1.5;
 }
 
 .mission ul li{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin-left: 5%;
     list-style-type: disc;
+    font-size: 20px;
   
 }
 
 .schoolTeacher{
-    background-color: midnightblue;
+    /* background-color: yellow; */
     width: 33.3333%;
 }
 
+.schoolTeacher img{
+    /* background-color: midnightblue; */
+    width: 100%;
+    
+    
+}
+
 .visionContainer{
-    background-color: orangered;
+    /* background-color: orangered; */
     width: 33.3333%;
 }
 
 .visionContainer h2{
     text-transform: uppercase;
     font-size: 25px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 10px;
 }
 
 .visionContainer p{
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 2px;
+}
+
+
+
+
+/* fellowshipContainer */
+
+.fellowshipContainer{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+}
+
+.fellowship{
+    width: 50%;
+    padding: 10px;
+}
+
+/* .fellowship h2{
+    background-color: yellow;
+} */
+
+.fellowshipDescription{
+    /* background-color: mediumslateblue; */
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.fellowshipDescription p{
+    /* background-color: goldenrod; */
+    font-size: 20px;
+}
+
+/* .fellowshipDescription ul{
+    background-color: springgreen;
+} */
+
+.fellowshipDescription ul li{
+    /* background-color: yellow; */
+    margin-left: 5%;
+    font-size: 20px;
+    
+}
+
+.sundaySchoolImages{
+    margin: 3% 0%;
+    /* background-color: yellow; */
+}
+
+.sundaySchoolImages img{
+    margin: 5px;
+    /* background-color: lightseagreen; */
+}
+
+/* .missionContainer */
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 830px) {
+
+    .school{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .schoolImage{
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .schoolImage img{
+        width: 100%;
+    }
+
+    .description{
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    .missionContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0%;
+        /* background-color: green; */
+        
+       
+    }
+
+    .mission{
+        /* background-color: cyan; */
+        width: 100%;
+        padding: 4%;
+    }
+
+    .schoolTeacher{
+        /* background-color: yellow; */
+        width: 100%;
+        padding: 2%;
+    }
+
+    .visionContainer{
+        /* background-color: greenyellow; */
+        width: 100%;
+        padding: 2%;
+    }
+
+    .school{
+       
+        margin: 1% 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fellowshipContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sundaySchoolImages{
+        /* background-color: purple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sundaySchoolImages img{
+        /* background-color: yellow; */
+        width: 80%;
+    }
+    
+    
 }

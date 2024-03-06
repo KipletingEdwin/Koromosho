@@ -1,9 +1,9 @@
 .container {
-  background-color: green;
+  /* background-color: green; */
+  color: #fff;
 }
 
 .introduction {
-  background-color: #f4f5f6;
   margin: 0% 5%;
   display: flex;
   flex-direction: row;
@@ -18,8 +18,9 @@
 }
 
 .chairman {
-  /* background-color: aqua; */
+  background-color: #f4f5f6;
   width: 40%;
+  color: black;
 }
 
 .leadershipContainer {
@@ -137,4 +138,36 @@
   /* background-color: chartreuse; */
   padding: 5px;
   font-size: 18px;
+}
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 830px) {
+
+  .introduction{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .chairman{
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leadershipContainer{
+    width: 100%;
+    margin: 2% 0%;
+  }
+
+  .objectives{
+    display: flex;
+    flex-direction: column;
+  }
+
 }

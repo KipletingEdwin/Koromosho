@@ -5,7 +5,9 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Ministries from "./components/Ministries/Ministries";
 import Navbar from "./components/Navbar/Navbar";
-import SundaySchool from "./components/SundaySchool/SundaySchool";
+import Kama from './components/Kama/Kama';
+
+
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <Ministries />
       <Contact />
       <Footer />
-      <SundaySchool/>
+      <Kama />
+     
     </div>
   );
 }
