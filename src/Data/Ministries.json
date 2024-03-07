@@ -2,27 +2,32 @@
     {
       "name": "Kenya Anglican Men Association (KAMA)",
       "imageSrc": "../src/assets/ministry/KAMA_LOGO.png",
-      "link": "Learn More"
+      "link": "Learn More",
+      "href": "/kama"
     },
     {
       "name": "Mothers' Union (MU)",
       "imageSrc": "../src/assets/ministry/mothersunionlogo.jpg",
-      "link": "Learn More"
+      "link": "Learn More",
+      "href": "/mu"
     },
     {
       "name": "Kenya Anglican Youth Organization (KAYO)",
       "imageSrc": "../src/assets/ministry/kayo.png",
-      "link": "Learn More"
+      "link": "Learn More",
+      "href": "/kayo"
     },
     {
       "name": "Sundays' School",
       "imageSrc": "../src/assets/ministry/choir.png",
-      "link": "Learn More"
+      "link": "Learn More",
+      "href": "/sundayschool"
     },
     {
       "name": "Mission and Evangelism",
       "imageSrc": "../src/assets/ministry/choir.png",
-      "link": "Learn More"
+      "link": "Learn More",
+      "href": "/mission"
     }
     
   ]

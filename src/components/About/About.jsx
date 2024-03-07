@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
 import projects from '../../Data/Data.json'
-import Reverend from '../../assets/socials/facebook.png';
+import reverend from '../../assets/leaders/kama/trump.png';
 
 function About() {
   return (
@@ -16,7 +16,7 @@ function About() {
 
 
       <div className={styles.reverendContainer}>
-        <img src={Reverend} alt="reverend"/>
+        <img src={reverend} alt="reverend"/>
         <p className={styles.name}>Reverend Rirei</p>
         <h3>  Reverend's word of welcome</h3>
         <p className={styles.description}> We are glad that you have found time to visit the St. Marks Church Westlands

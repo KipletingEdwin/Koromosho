@@ -48,7 +48,7 @@ function Kama() {
 
             </div>
 
-            <div className={styles.moto}>
+            <div className={styles.motto}>
                 <h2> KAMA Motto </h2>
                 <h4> “But as for me and my house, we will serve the Lord.”  </h4>
                 <p> Joshua 24:15.
@@ -76,14 +76,21 @@ function Kama() {
 
             <div className={styles.fellowshipsContainer}>
                 <div className={styles.fellowshopDescription}>
+                    <h3> Fellowships </h3>
                     <p> KAMA at the Cathedral brings together all men in fellowship to learn God’s word, hold empowerment activities, and 
                         address issues that may be afflicting members. We hold meetings twice a month during the first and third Sunday 
                         after all four services; Holy Communion, Kiswahili, English and Kikuyu service. Additionally we hold monthly
                          afternoon prayers every third Sunday of the month at the home of a member. </p>
-                         <span> Men also participate in empowerment talks that aim at improving their family relations, community
-                             participation and wealth creation. KAMA aims to empower men at the Cathedral in an all-round manner. </span>
+                    <p> Men also participate in empowerment talks that aim at improving their family relations, community
+                             participation and wealth creation. KAMA aims to empower men at the Cathedral in an all-round manner.
+                    </p>
                 </div>
                 <div className={styles.fellowshipImages}>
+                    <img src={trump} alt='trump'/>
+                    <img src={trump} alt='trump'/>
+                    <img src={trump} alt='trump'/>
+                    <img src={trump} alt='trump'/>
+                    <img src={trump} alt='trump'/>
 
                 </div>
 
@@ -92,7 +99,7 @@ function Kama() {
                         <h3> Enrolment:</h3>
                         <p> Annually KAMA in the diocese enrolls men to formally join KAMA as members, this is a ceremony that is officiated
                              by the Diocesan Bishop. </p>
-                             <span> Contact David +254 723 842 083 </span>
+                             <p className={styles.contact}> Contact David +254 723 842 083 </p>
 
                     </div>
                     <div className={styles.giving}>

@@ -1,16 +1,51 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import Kama from "./components/Kama/Kama.jsx";
+import Mu from "./components/Mu/Mu.jsx";
+import Kayo from "./components/Kayo/Kayo.jsx";
+import SundaySchool from "./components/SundaySchool/SundaySchool.jsx";
+// import Navbar from "./components/Navbar/Navbar";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 import "@fontsource/outfit";
 import "@fontsource/roboto";
+import LandingPage from "./LandingPage.jsx";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element:  <App />,
+    children: [
+ {
+        element:  <LandingPage />,
+        index: true,
+      },
+      {
+        path: "/kama",
+        element:  <Kama />,
+      },
+      {
+        path: "/mu",
+        element:  <Mu />,
+      },
+      {
+        path: "/kayo",
+        element:  <Kayo />,
+      },
+      {
+        path: "/sundayschool",
+        element:  <SundaySchool />,
+      },
+    ]
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+     <RouterProvider router={router} />
   </React.StrictMode>
 );

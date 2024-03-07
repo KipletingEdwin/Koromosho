@@ -1,0 +1,43 @@
+.container{
+    /* background-color: green; */
+    width: 100%;
+    color: #fff;
+}
+
+.descriptionContainer{
+    /* background-color: red; */
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    /* background-color: green; */
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.description{
+    width: 50%;
+
+}
+
+.description p{
+    /* background-color: yellow; */
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.descriptionImage{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionImage img{
+    height: 100%;
+}

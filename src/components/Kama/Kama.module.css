@@ -1,8 +1,9 @@
 @import '../../vars.css';
 
 .container{
-    background-color: green;
+    /* background-color: green; */
     margin: 2% 5%;
+    color: #ffffff;
 }
 
 .introduction{
@@ -12,31 +13,31 @@
 }
 
 .intro{
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
 }
 
 .intro h2{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     margin: 5% 2%;
     font-size: 45px;
 }
 
 .intro h3{
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
     margin: 2%;
     font-size: 30px;
 }
 
 .description{
-    background-color: chocolate;
+    /* background-color: chocolate; */
     width: 50%;
     padding: 1%;
     
 }
 
 .description p{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     font-size: 18px;
     line-height: 1.8;
 }
@@ -46,6 +47,7 @@
     text-align: center;
     background-color: #edeff2;
     margin: 0% 5%;
+    color: black;
 }
 
 .leaders{
@@ -75,8 +77,88 @@
     font-weight: 600;
 }
 
+/* .motto{
+    background-color: red;
+} */
 
+.motto h2{
+    /* background-color: yellow; */
+    font-size: 35px;
+    text-align: center;
+    padding: 2%;
+}
+.motto h4{  
+    /* background-color: blue; */
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
 
+.motto p{
+    /* background-color: coral; */
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* .objectives{
+    background-color: darkmagenta;
+} */
+
+.objectives ul{
+    /* background-color: red; */
+    margin: 0.5% 2%;
+}
+
+.objectives ul li{
+    /* background-color: lightblue; */
+    margin-left: 2%;
+    list-style: decimal;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 5px;
+}
+
+.fellowshipsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.fellowshopDescription{
+    /* background-color: blue; */
+    width: 33.3333%;
+}
+ .fellowshipsContainer h3{
+    font-size: 35px;
+    /* background-color: darkcyan; */
+    text-align: center;
+ }
+
+ .fellowshipsContainer p{
+    font-size: 19px;
+    /* background-color: gold; */
+    padding: 2%;
+    line-height: 1.7;
+ }
+
+ .fellowshipImages{
+    /* background-color: maroon; */
+    width: 33.333%;
+ }
+
+ /* .fellowshipImages img{
+    background-color: blue;
+ } */
+
+ .enrolment{
+    width: 33.333%;
+ }
+
+ .contact{
+    font-weight: 700;
+    text-decoration: underline;
+ }
 
 
 
@@ -110,6 +192,23 @@
 
     .leader{
         margin: 2% 0%;
+    }
+
+    .fellowshipsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fellowshopDescription{
+        width: 100%;
+    }
+
+    .fellowshipImages{
+        width: 100%;
+    }
+
+    .enrolment{
+        width: 100%;
     }
 
 }

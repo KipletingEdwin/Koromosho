@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Ministries.module.css";
 import ministriesData from "../../Data/Ministries.json";
+import { Link } from "react-router-dom";
 
 function Ministries() {
   return (
@@ -17,14 +18,14 @@ function Ministries() {
 
         <div className={styles.departmentsContainer}>
           {ministriesData.map((ministry, index) => (
-            <div key={index} className={styles.kama}>
+            <Link to={ministry.href} key={index} className={styles.kama}>
               <img src={ministry.imageSrc} alt={ministry.name} />
               <div className={styles.description}>
                 <h3>{ministry.name}</h3>
                 <hr className={styles.kamaLine} />
                 <p>{ministry.link}</p>
               </div>
-            </div>
+            </Link>
           ))}
 
           
