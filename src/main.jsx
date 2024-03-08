@@ -6,6 +6,7 @@ import Mu from "./components/Mu/Mu.jsx";
 import Kayo from "./components/Kayo/Kayo.jsx";
 import SundaySchool from "./components/SundaySchool/SundaySchool.jsx";
 import Evangelism  from "./components/Evangelism/Evangelism.jsx"
+import Choir from "./components/Choir/Choir.jsx";
 import "./index.css";
 import {
   createBrowserRouter,
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/mission",
         element:  <Evangelism />,
+      },
+      {
+        path: "/choir",
+        element:  <Choir />,
       }
     ]
   },

@@ -28,6 +28,12 @@
       "imageSrc": "../src/assets/ministry/choir.png",
       "link": "Learn More",
       "href": "/mission"
+    },
+    {
+      "name": "Choir",
+      "imageSrc": "../src/assets/ministry/choir.png",
+      "link": "Learn More",
+      "href": "/choir"
     }
     
   ]
