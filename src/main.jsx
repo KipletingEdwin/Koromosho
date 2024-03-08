@@ -5,7 +5,6 @@ import Kama from "./components/Kama/Kama.jsx";
 import Mu from "./components/Mu/Mu.jsx";
 import Kayo from "./components/Kayo/Kayo.jsx";
 import SundaySchool from "./components/SundaySchool/SundaySchool.jsx";
-// import Navbar from "./components/Navbar/Navbar";
 import "./index.css";
 import {
   createBrowserRouter,
