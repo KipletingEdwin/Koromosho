@@ -2,11 +2,12 @@
     /* background-color: green; */
     width: 100%;
     color: #fff;
+    margin: 5% 0%;
 }
 
 .descriptionContainer{
-    /* background-color: red; */
-    margin: 2%;
+    background-color: red;
+    margin: 2% 5%;
     display: flex;
     flex-direction: row;
 }
@@ -14,7 +15,7 @@
 .title{
     /* background-color: green; */
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     padding: 10px;
 }
 
@@ -25,19 +26,50 @@
 
 .description p{
     /* background-color: yellow; */
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 1.5;
     padding: 5px;
 }
 
 .descriptionImage{
     width: 50%;
-    /* background-color: blue; */
+    background-color: blue;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .descriptionImage img{
-    height: 100%;
+    background-color: green;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 830px){
+
+    .descriptionContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .descriptionImage{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: chocolate; 
+         
+    }
+
+    .descriptionImage img{
+        /* margin: 2%; */
+        height: auto;
+        
+    }
+    
 }

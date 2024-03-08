@@ -25,6 +25,7 @@ function Evangelism() {
         </div>
         <div className={styles.descriptionImage}>
           <img src={trump} alt="evangelism" />
+          <img src={trump} alt="evangelism" />
         </div>
       </div>
     </section>

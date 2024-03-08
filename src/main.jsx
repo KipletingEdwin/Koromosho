@@ -5,6 +5,7 @@ import Kama from "./components/Kama/Kama.jsx";
 import Mu from "./components/Mu/Mu.jsx";
 import Kayo from "./components/Kayo/Kayo.jsx";
 import SundaySchool from "./components/SundaySchool/SundaySchool.jsx";
+import Evangelism  from "./components/Evangelism/Evangelism.jsx"
 import "./index.css";
 import {
   createBrowserRouter,
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
         path: "/sundayschool",
         element:  <SundaySchool />,
       },
+      {
+        path: "/mission",
+        element:  <Evangelism />,
+      }
     ]
   },
 ]);
