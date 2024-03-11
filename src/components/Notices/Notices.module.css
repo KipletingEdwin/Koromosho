@@ -1,3 +1,8 @@
+.noticesContainer{
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
+
+}
+
 .containerTop {
     /* background-color: gray; */
     display: flex;
@@ -5,7 +10,7 @@
   }
 
   .title{
-    font-size: 35px;
+    font-size: 25px;
     color: var(--color-text);
     text-align: center;
     text-decoration: underline;
@@ -57,7 +62,7 @@
     border: 2px solid black;
     padding: 5px;
     margin: 0px;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 800;
   }
 
@@ -66,5 +71,11 @@
     padding: 15px;
     font-size: 22px;
     border: 2px solid black;
+  }
+
+
+
+  @media screen and (max-width: 830px) {
+    
   }
   

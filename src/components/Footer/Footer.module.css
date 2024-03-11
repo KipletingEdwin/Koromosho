@@ -10,7 +10,6 @@
     flex-direction: row;
     color: #ffff;
     /* background-color: red; */
-    border-top: 1px solid #fff;
     margin: 0% 5%;
 }
 
@@ -201,17 +200,21 @@
 
 
     .bottomFooter{
-        /* background-color: red; */
+        background-color: red;
         display: flex;
         flex-direction: column;
         font-size: 15px;
+        margin: 0px;
     }
 
     .rights{
-        /* background-color: red; */
+        background-color: green;
         width: 100%;
         margin: 0px;
         padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
        
     }
 
@@ -220,7 +223,7 @@
     } */
 
     .terms{
-        /* background-color: green; */
+        background-color: yellow;
         width: 100%;
         padding: 0px;
         font-size: 15px;
