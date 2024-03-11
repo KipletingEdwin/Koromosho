@@ -14,7 +14,7 @@ function Footer() {
           <p>Welcome to ACK St James Koromosho,feel free to worship with us</p>
         </div>
         <div className={styles.aboutSection}>
-          <h4>About</h4>
+          <h4>About Church</h4>
           <ul>
             <li>
               <Link to="/home">Home</Link>
