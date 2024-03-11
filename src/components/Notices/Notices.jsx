@@ -28,7 +28,7 @@ function Notices() {
               <th> Venue </th>
               <th> Date </th>
               <th> Time </th>
-              <th> Who </th>
+              <th> Expected Attendees </th>
             </tr>
           </thead>
           <tbody>

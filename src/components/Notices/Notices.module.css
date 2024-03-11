@@ -19,3 +19,33 @@
     color: var(--color-text);
     margin: 15px 0px;
   }
+
+  .notices{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .notices table{
+    background-color: darkviolet;
+    margin: 2% 5%;
+  }
+
+  .notices thead{
+    background-color: red;
+   
+  }
+
+  .notices thead tr{
+    /* background-color: lightgreen; */
+    border: 1px solid black;
+  }
+
+  .notices td{
+    background-color: mediumaquamarine;
+    padding: 15px;
+    font-size: 22px;
+  }
+  
