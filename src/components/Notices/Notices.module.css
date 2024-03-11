@@ -3,6 +3,15 @@
     display: flex;
     flex-direction: row;
   }
+
+  .title{
+    font-size: 35px;
+    color: var(--color-text);
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    line-height: 1.5;
+  }
   
   .line {
     width: 50%;
@@ -21,31 +30,41 @@
   }
 
   .notices{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
+    color: #fff;
   }
 
   .notices table{
-    background-color: darkviolet;
+    /* background-color: darkviolet; */
     margin: 2% 5%;
+    border: 2px solid black;
   }
-
-  .notices thead{
+/* 
+  .notices table thead{
     background-color: red;
-   
-  }
+    padding: 15px;
+  } */
 
-  .notices thead tr{
-    /* background-color: lightgreen; */
-    border: 1px solid black;
+  /* .notices thead tr{
+    background-color: lightgreen;
+  } */
+
+  .notices thead tr th{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 800;
   }
 
   .notices td{
-    background-color: mediumaquamarine;
+    background-color: var(--color-bg);
     padding: 15px;
     font-size: 22px;
+    border: 2px solid black;
   }
   

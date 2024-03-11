@@ -20,6 +20,7 @@ function Notices() {
         <p>Notices</p>
         <hr className={styles.line} />
       </div>
+      <h1 className={styles.title}> Here are the notices from secretary's desk:</h1>
       <div className={styles.notices}>
         <table>
           <thead>

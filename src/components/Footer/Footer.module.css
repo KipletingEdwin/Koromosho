@@ -5,69 +5,13 @@
     margin-top: 3%;
 }
 
-.line{
-    width: 100%;
-    color: var(--color-text);
-    height: 0.5px;
-
-}
-
-.bottomFooter{
-    display: flex;
-    flex-direction: row;
-    /* background-color: red; */
-    color: var(--color-text);
-    font-size: "Roboto" Arial, sans-serif;
-    padding: 2px 5px;
-    margin: 5% 0%;
-}
-
-.rights{
-    /* background-color: yellow; */
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-.rights p{
-    /* background-color: green; */
-    margin: 2px 5px;
-    padding: 0% 5%;
-    display: flex;
-    flex-direction: row;
-}
-.rights a{
-    color: var(--color-text);
-}
-
-.copyright{
-    /* background-color: black; */
-    padding: 0px 5px;
-    
-}
-
-.terms{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    color: var(--color-text);
-}
-.terms a{
-    padding: 0% 10%;
-    color: var(--color-text);
-    /* background-color: green; */
-}
-
 .aboutChurch{
     display: flex;
     flex-direction: row;
     color: #ffff;
     /* background-color: red; */
     border-top: 1px solid #fff;
+    margin: 0% 5%;
 }
 
 .aboutChurch h4{
@@ -156,15 +100,62 @@
 
 
 
+.line{
+    width: 100%;
+    color: var(--color-text);
+    height: 0.5px;
 
+}
 
+.bottomFooter{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    color: var(--color-text);
+    font-size: "Roboto" Arial, sans-serif;
+    padding: 0%;
+    margin: 0% 5%;
+}
 
+.rights{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
+.rights p{
+    /* background-color: green; */
+    margin: 2px 5px;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: row;
+}
+.rights a{
+    color: var(--color-text);
+}
 
+.copyright{
+    /* background-color: black; */
+    padding: 0px 5px;
+    
+}
 
-
-
-
+.terms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    color: var(--color-text);
+}
+.terms a{
+    padding: 0% 10%;
+    color: var(--color-text);
+    /* background-color: green; */
+}
 
 
 
@@ -175,6 +166,40 @@
 
 
 @media screen and (max-width: 830px) {
+
+    .aboutChurch{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aboutSection{
+        width: 100%;
+        /* background-color: yellow; */
+    }
+
+    .aboutSection ul{
+        /* background-color: green; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .aboutSection ul li{
+        /* background-color: cornflowerblue; */
+        align-items: center;
+    }
+
+    .ack{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .shop{
+        width: 100%;
+        /* background-color: red; */
+    }
+
+
     .bottomFooter{
         /* background-color: red; */
         display: flex;
