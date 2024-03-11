@@ -200,7 +200,7 @@
 
 
     .bottomFooter{
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -208,7 +208,7 @@
     }
 
     .rights{
-        background-color: green;
+        /* background-color: green; */
         width: 100%;
         margin: 0px;
         padding: 10px 0px;
@@ -218,12 +218,13 @@
        
     }
 
-    /* .rights p{
-        background-color: yellow;
-    } */
+    .rights p{
+        /* background-color: yellow; */
+        margin-top: 2%;
+    }
 
     .terms{
-        background-color: yellow;
+        /* background-color: yellow; */
         width: 100%;
         padding: 0px;
         font-size: 15px;
