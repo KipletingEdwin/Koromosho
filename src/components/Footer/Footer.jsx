@@ -1,9 +1,34 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import logo from "../../assets/nav/koro.png";
 
 function Footer() {
   return (
     <section className={styles.container}>
+      <div className={styles.aboutChurch}>
+        <div className={styles.ack}>
+          <h4>ACK ST JAMES KOROMOSHO</h4>
+          <img src={logo} alt="koromosho"/>
+          <p>Welcome to ACK St James Koromosho,feel free to worship with us</p>
+        </div>
+        <div className={styles.aboutSection}>
+          <h4>About</h4>
+          <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/home">About</a></li>
+            <li><a href="/home">Ministries</a></li>
+            <li><a href="/home">Contact</a></li>
+          </ul>
+        </div>
+        <div className={styles.shop}>
+          <h4>Join our email list</h4>
+          <form className={styles.inputContainer}>
+            <input name="email" type="email" placeholder="Email" required/>
+          </form>
+          <button>Subscribe</button>
+          <p>By completing this form you are signing up to receive our emails and can unsubscribe at any time</p>
+      </div>
+      </div>
       <div className={styles.footerLine}>
         <hr className={styles.line} />
       </div>

@@ -16,7 +16,7 @@ function Home() {
   let interval = useRef();
 
   const startTimer = () => {
-    let initialCountDownDate = new Date("March 10, 2024 15:00:00").getTime();
+    let initialCountDownDate = new Date("March 17, 2024 15:00:00").getTime();
     let countDownDate = initialCountDownDate;
 
     interval.current = setInterval(() => {

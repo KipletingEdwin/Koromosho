@@ -19,6 +19,7 @@
     color: var(--color-text);
     font-size: "Roboto" Arial, sans-serif;
     padding: 2px 5px;
+    margin: 5% 0%;
 }
 
 .rights{
@@ -60,6 +61,118 @@
     color: var(--color-text);
     /* background-color: green; */
 }
+
+.aboutChurch{
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+    /* background-color: red; */
+    border-top: 1px solid #fff;
+}
+
+.aboutChurch h4{
+    /* background-color: blueviolet; */
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
+.ack{
+    width: 33.333%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.ack p{
+    /* background-color: blue; */
+    padding: 2%;
+    line-height: 1.4;
+}
+
+.ack img{
+    height: 70px;
+}
+
+.aboutSection{
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: darkviolet; */
+}
+
+.aboutSection ul{
+    /* background-color: hotpink; */
+    margin: 1% 10%;
+}
+
+.aboutSection ul li{
+    /* background-color: lawngreen; */
+    padding: 4px;
+    list-style: none;
+}
+
+.aboutSection ul li a{
+    color: #fff;
+}
+
+.shop{
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer{
+    width: 100%;
+}
+
+.shop input{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.shop button{
+    height: 30px;
+    margin: 3%;
+    width: 30%;
+    font-size: 18px;
+}
+
+.shop p{
+    /* background-color: yellow; */
+    padding: 8px;
+    line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 830px) {
     .bottomFooter{
