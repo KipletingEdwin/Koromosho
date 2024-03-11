@@ -16,6 +16,7 @@ import {
 import "@fontsource/outfit";
 import "@fontsource/roboto";
 import LandingPage from "./LandingPage.jsx";
+import Home from "./components/Home/Home.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "/choir",
         element:  <Choir />,
+      },
+      {
+        path: "/home",
+        element:  <Home />,
       }
     ]
   },

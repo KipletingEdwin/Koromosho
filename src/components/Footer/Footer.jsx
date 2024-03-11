@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import logo from "../../assets/nav/koro.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,10 +15,10 @@ function Footer() {
         <div className={styles.aboutSection}>
           <h4>About</h4>
           <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/home">About</a></li>
-            <li><a href="/home">Ministries</a></li>
-            <li><a href="/home">Contact</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/ministries">Ministries</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div className={styles.shop}>
