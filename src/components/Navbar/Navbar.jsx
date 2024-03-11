@@ -40,7 +40,7 @@ function Navbar() {
             </li>
 
             <li>
-              <a href="#news">News</a>
+              <a href="#notices">Notices</a>
             </li>
 
             <li>
