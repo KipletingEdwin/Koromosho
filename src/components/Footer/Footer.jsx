@@ -16,9 +16,9 @@ function Footer() {
           <h4>About</h4>
           <ul>
             <li><Link to="/home">Home</Link></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/ministries">Ministries</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/ministries">Ministries</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className={styles.shop}>

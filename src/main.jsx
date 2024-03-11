@@ -17,6 +17,9 @@ import "@fontsource/outfit";
 import "@fontsource/roboto";
 import LandingPage from "./LandingPage.jsx";
 import Home from "./components/Home/Home.jsx";
+import About from "./components/About/About.jsx";
+import Ministries from "./components/Ministries/Ministries.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -53,6 +56,18 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element:  <Home />,
+      },
+      {
+        path: "/about",
+        element:  <About />,
+      },
+      {
+        path: "/ministries",
+        element:  <Ministries />,
+      },
+      {
+        path: "/contact",
+        element:  <Contact />,
       }
     ]
   },
