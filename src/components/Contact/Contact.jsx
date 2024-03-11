@@ -61,14 +61,14 @@ function Contact() {
                 <h3>Contact Information</h3>
               </div>
               <p>
-                <FontAwesomeIcon icon={faPhone} /> : +254712345678{" "}
+                <FontAwesomeIcon icon={faPhone} /> +254712345678{" "}
               </p>
               <p>
-                <FontAwesomeIcon icon={faEnvelope} />:
+                <FontAwesomeIcon icon={faEnvelope} />
                 ackstjameskoromosho@gmail.com
               </p>
               <p>
-                <FontAwesomeIcon icon={faLocationDot} />: Kaptinga,Simat
+                <FontAwesomeIcon icon={faLocationDot} /> Kaptinga,Simat
                 Location,Kapseret Constituency,Uasin Gishu County
               </p>
             </div>

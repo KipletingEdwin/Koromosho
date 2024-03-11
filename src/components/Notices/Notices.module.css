@@ -48,15 +48,7 @@
     margin: 2% 5%;
     border: 2px solid black;
   }
-/* 
-  .notices table thead{
-    background-color: red;
-    padding: 15px;
-  } */
 
-  /* .notices thead tr{
-    background-color: lightgreen;
-  } */
 
   .notices thead tr th{
     border: 2px solid black;
@@ -75,7 +67,14 @@
 
 
 
-  @media screen and (max-width: 830px) {
+  /* @media screen and (max-width: 830px) {
+    .notices{
+        background-color: deeppink;
+    }
+
+    .notices table{
+        background-color: goldenrod;
+    }
     
-  }
+  } */
   
