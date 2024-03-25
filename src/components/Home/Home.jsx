@@ -11,12 +11,14 @@ function Home() {
   const [sentence, setSentence] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const fullSentence = "Welcome to:";
+  const fullSentence = "Welcome to";
 
   let interval = useRef();
 
   const startTimer = () => {
-    let initialCountDownDate = new Date("March 17, 2024 15:00:00").getTime();
+    let initialCountDownDate = new Date("March 31, 2024 10:00:00").getTime();
+    console.log(new Date("March 31, 2024 15:00:00"));
+
     let countDownDate = initialCountDownDate;
 
     interval.current = setInterval(() => {
@@ -34,11 +36,6 @@ function Home() {
       );
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display "Ongoing" for the first two hours
-      if (hours < 2) {
-        hours = "Ongoing";
-      }
 
       if (distance < 0) {
         clearInterval(interval.current);
@@ -79,7 +76,7 @@ function Home() {
       <img className={styles.backImage} src={koroProfile} alt="koro" />
       <div className={styles.content}>
         <div className={styles.contentTitle}>
-          <h3>{sentence} </h3>
+          <h3>{sentence}: </h3>
           <h1 className={styles.title}> ACK ST. JAMES KOROMOSHO</h1>
         </div>
         <div className={styles.countDownContainer}>

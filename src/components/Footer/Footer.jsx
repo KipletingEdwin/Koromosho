@@ -8,9 +8,9 @@ function Footer() {
       <div className={styles.aboutChurch}>
         <p>A.C.K St James Koromosho,Kaptinga,Simat Location</p>
         <div className={styles.contactFooter}>
-          <p> Tel:0712345678</p>
-          <p> Email:ackstjameskoromosho@gmail.com</p>
-          <p> Web:www.stjameskoromosho.or.ke</p>
+          <p> Tel: 0712345678</p>
+          <p> Email: ackstjameskoromosho@gmail.com</p>
+          <p> Web: www.stjameskoromosho.or.ke</p>
         </div>
         <p>
           <p>Copyright &copy; 2016- St James Koromosho</p>
